@@ -1,0 +1,9 @@
+#include <stdio.h>
+#define what 100
+int main()
+{
+	int num = 0;
+	num = what;
+	printf("num=%d\n", num);
+	return 0;
+}
