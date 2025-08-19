@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	enum SEX {
+		MALE=0,
+		FEMALE=5
+};
+	printf("%d\n", MALE);
+	printf("%d\n", FEMALE);
+}
