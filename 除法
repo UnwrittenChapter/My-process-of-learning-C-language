@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	int a = 9 / 2;
+	printf("%d", a);
+	return 0;
+}//整数型
+//#include <stdio.h>
+//int main()
+//{
+	//float a = 9 / 2.0;
+	//printf("%f", a);
+	//return 0;
+//}//小数型
