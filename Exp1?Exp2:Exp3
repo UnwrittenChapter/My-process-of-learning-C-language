@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	int a = 5;
+	int b = 9;
+	int max = 0;
+	max = a > b ? a : b;
+	printf("%d", max);
+	return 0;
+}//如果exp1成立，则进行exp2，若exp1不成立，则进行exp3
