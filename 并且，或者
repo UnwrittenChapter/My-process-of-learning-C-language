@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	int a = 1;
+	int b = 2;
+	int c = a && b;
+	printf("%d", c);
+	return 0;
+}//&&为并且，看真假，0为假，非0为真。同理||为或者
+
