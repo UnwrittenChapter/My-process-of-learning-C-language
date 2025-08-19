@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int age = 18;
+	double weight = 60;
+	age = age + 2;
+	weight = weight - 10;
+	printf("%d\n", age);
+	printf("%f\n", weight);
+	return 0;
+}
