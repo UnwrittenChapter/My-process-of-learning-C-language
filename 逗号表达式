@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	int a = 1;
+	int b = 5;
+	int c = 6;
+	int d = (a = b - 1, c = a * 2, b = c + 7);
+	printf("%d", d);
+	return 0;
+}//从左到右依次进行即可，结果为最后的值
