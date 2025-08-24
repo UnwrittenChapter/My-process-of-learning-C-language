@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	int x = 1;
+	int i = 10;
+	while (i > 1)
+	{
+		x = (x + 1) * 2;
+		i -= 1;
+		
+	}
+	printf("第一天摘了%d个桃子", x);
+	return 0;
+}
