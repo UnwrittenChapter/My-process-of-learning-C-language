@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main()
+{
+printf("helllod world");
+return 0；}
