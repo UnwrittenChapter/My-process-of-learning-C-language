@@ -1,0 +1,21 @@
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int input = 0;
+	printf("你是SB吗？\n");
+	printf("是选1，不是选0\n");
+	scanf("%d", &input);
+	if (input == 1)
+	{
+		printf("我认可你了\n");
+	}
+	if else (input==0) 
+	{
+		printf("我不信\n");
+	}
+	else {
+		printf("叛逆是吧！！\n");
+	}
+	return 0;
+}
