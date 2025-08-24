@@ -1,0 +1,36 @@
+#include <stdio.h>
+void test()
+{
+	int a = 1;
+	a++;
+	printf("%d ", a);
+}
+int main()
+{
+	int i = 0;
+	while (i<10)
+	{
+		test();
+		i++;
+	}
+	return 0;
+}//无static(10个2)
+///#include <stdio.h>
+//void test()
+//{
+	//static int a = 1;
+	//a++;
+	//printf("%d ", a);
+//}
+//int main()
+//{
+	//int i = 0;
+	//while (i<10)
+	//{
+		//test();
+		//i++;
+	//}
+	//return 0;
+}//有static(2到11）
+//static在局部变量中是将局部变量从栈道转为静态区，生命周期延长
+//static在全局变量和函数都起了缩小范围的作用，不加则整个工程都可运用，加了则只有在其源文件内才可用
