@@ -1,7 +1,0 @@
-#include <stdio.h>
-#define ADD(X,Y) ((X)+(Y))
-int main()
-{
-	printf("%d", 4*ADD(5, 6));
-	return 0;
-}
