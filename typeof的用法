@@ -1,8 +1,0 @@
-#include <stdio.h>
-int main()
-{
-	typedef unsigned int u_int;
-	u_int a = 10;
-	printf("%d", a);
-	return 0;
-}//typeof相当于换元
