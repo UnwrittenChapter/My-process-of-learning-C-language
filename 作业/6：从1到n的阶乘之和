@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int j = 1; long long result2 = 0;
+	int n = 0;
+	scanf("%d", &n);
+	while (j <= n)
+	{
+		long long result1 = 1;
+		for (int i = 1; i <= j; i++)
+		{
+			
+			result1 *= i;
+		}
+		result2 += result1;
+		j++;
+	}
+	printf("%d\n", result2);
+	return 0;
+}
